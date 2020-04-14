@@ -3,29 +3,23 @@
     margin: 0;
     box-sizing: border-box;
 }
+body{
+    background-color: #3f0002;
+    background-repeat: no-repeat;
+}
+.bg_img img{
+    display: inline-block;
+    background-repeat: no-repeat;
+        width: 100%;
+}
 header{
     height: 40px;
     background-color: #af2024;
 }
-.background_red{
-    background-color: #3f0002;
-    background-size: contain;
-
-
-}
-.bg_images{
-  /*  background-image: url("../images/bg_images_02.jpg");
-    height: 818px;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;*/
-    position: relative;
-
-}
 .container{
     max-width: 960px;
     margin: auto;
-    margin-top:-985px;
+    margin-top:-875px;
     position: relative;
     z-index: 2;
 }
@@ -70,6 +64,8 @@ header{
     color: #ffffff;
     font-size: 20px;
     padding-left: 18px;
+    font-family: Arvo;
+    font-weight: 700;
 }
 .player{
     background-color: #ffffff;
@@ -102,23 +98,31 @@ header{
     display: inline-block;
     font-size: 13px;
     line-height: 18px;
+    font-family: Arvo;
+    font-weight: 700;
 }
 .player_element span{
     color: #7d7d7d;
     display: inline-block;
     font-size: 12px;
+    font-family: Arvo;
+    font-weight: 400;
 }
 .history{
     margin-top: 32px;
 }
 .text{
+    font-size: 13px;
+    line-height: 18px;
     margin-top: 2px;
+    color: #98161b;
+    font-family: Arvo;
+    font-weight: 400;
 }
 .history img {
     padding-top: 19px;
     padding-bottom: 18px;
 }
-
 footer{
     height: 454px;
     background-color: #000000;
