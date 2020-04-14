@@ -1,0 +1,129 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header{
+    height: 40px;
+    background-color: #af2024;
+}
+.background_red{
+    background-color: #3f0002;
+    background-size: contain;
+
+
+}
+.bg_images{
+  /*  background-image: url("../images/bg_images_02.jpg");
+    height: 818px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;*/
+    position: relative;
+
+}
+.container{
+    max-width: 960px;
+    margin: auto;
+    margin-top:-985px;
+    position: relative;
+    z-index: 2;
+}
+.fixed{
+    background-color: #850409 ;
+    position: fixed;
+    top:262px;
+    right: 0;
+    display: flex;
+    flex-direction: column;
+    z-index: 4;
+
+}
+.fixed li{
+    list-style-type: none;
+}
+.fixed a{
+    display: flex;
+    height: 50px;
+    width: 50px;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: white;
+}
+.fixed li:hover{
+    background-color: #98161b;
+    transition: 0.5s;
+}
+
+.video_title{
+    max-width: 710px;
+    margin: auto;
+    padding-top: 33px;
+}
+.first{
+    padding-top: 27px;
+    padding-bottom: 28px;
+    background-color: #98161b;
+}
+.first h1{
+    color: #ffffff;
+    font-size: 20px;
+    padding-left: 18px;
+}
+.player{
+    background-color: #ffffff;
+    padding-top: 63px;
+    padding-bottom: 128px;
+    position: relative;
+}
+.player_element{
+    max-width: 567px;
+    margin: auto;
+}
+.silver_fon{
+    position: relative;
+    width: 567px;
+    height: 346px;
+    background-color: #e7e7e7;
+    padding-bottom: 30px;
+}
+.triangle{
+    position: absolute;
+    width: 48px;
+    height: 54px;
+    top: 50%;
+    left: 50%;
+    margin-left: -25px;
+    margin-top: -25px;
+}
+.player_element p{
+    color: #98161b;
+    display: inline-block;
+    font-size: 13px;
+    line-height: 18px;
+}
+.player_element span{
+    color: #7d7d7d;
+    display: inline-block;
+    font-size: 12px;
+}
+.history{
+    margin-top: 32px;
+}
+.text{
+    margin-top: 2px;
+}
+.history img {
+    padding-top: 19px;
+    padding-bottom: 18px;
+}
+
+footer{
+    height: 454px;
+    background-color: #000000;
+    position: relative;
+    margin-top: -36px;
+    z-index: 1;
+}
+
